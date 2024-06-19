@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italiana&family=Petit+Formal+Script&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+
+.home{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-sizing: border-box;
+    background:url("../../components/images/4536.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 90%;
+    margin-left: 67px;
+    margin-top: 50px;
+}
+
+.heading{
+    font-family: "Petit Formal Script";
+    font-weight: 800;
+    font-size: 45px;
+    color: #c97901;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+.text{
+    width: 45%;
+    margin-left: 40px;
+    font-family: "Abel";
+    font-weight: 500;
+    font-size: 20px;
+    color: #abaaaa;
+    margin-bottom: 50px;
+ 
+}
+
+.button{
+    background-color: #e29c34;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+   margin-left: 40px;
+}
+
+.button:hover{
+    background-color: #8b5e34;
+}
+
+.button a{
+    text-decoration: none;
+    color: #FFEFCD;
+}

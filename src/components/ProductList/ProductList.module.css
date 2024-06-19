@@ -1,0 +1,17 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    flex: 1;
+}
+
+.hoveredCard {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+ 

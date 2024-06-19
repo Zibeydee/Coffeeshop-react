@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italiana&family=Playball&display=swap');
+
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    color: #c0632d;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #c0632d;
+    font-family: "Italiana";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list li a:hover,
+.list li a.active {
+    color:#FFEFCD ;
+}

@@ -1,0 +1,14 @@
+.footerlist {
+    list-style: none;
+    background-color: #89431b;
+    color: white;
+    height: 150px; 
+    width: 1468px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.footerlist li {
+  
+    padding: 0 10px;
+}

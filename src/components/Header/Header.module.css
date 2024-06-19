@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Playball&display=swap');
+
+.text{
+    font-family:"Fredericka the Great";
+    font-weight: 500;
+    font-size: 40px;
+    font-style: inherit;
+    color:  #89431b;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoHeader{
+    width: 50px;
+    height: 50px;
+}
