@@ -1,8 +1,20 @@
-import React, { useState } from 'react';
+import React, { useReducer, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBasketShopping } from '@fortawesome/free-solid-svg-icons'
 import style from '../pages/style/Menu.module.css';
+import { useNavigate } from 'react-router-dom';
+import { reducerCount } from '../reducer';
+import { ADD, REMOVE } from '../actionTypes';
 
 function Menu() {
   const [activeMenu, setActiveMenu] = useState(null)
+  const navigate = useNavigate()
+
+
+  
+
+
+  const [state, dispatch] = useReducer(reducerCount, {count: 0})
 
   const menuItems = [
     {
@@ -43,25 +55,33 @@ function Menu() {
     }
   ]
 
-  const handleMouseEnter = (id) => { (setActiveMenu(id)) }
-  const handleMouseLeave = () => { (setActiveMenu(null)) }
+  const handleMouseEnter = (id) => { setActiveMenu(id) }
+  const handleMouseLeave = () => { setActiveMenu(null) }
+  const handleClickIcon = () => { navigate('/basket') }
+
+
 
 
   return (
     <div className={style.menuContainer}>
-      <h1>Menu</h1>
+      <div className={style.heading}>
+        <h1 >Menu</h1>
+        <div className={style.count}>
+          <span>{state.count}</span>
+          <FontAwesomeIcon className={style.icon} onClick={handleClickIcon} icon={faBasketShopping} />
+        </div>
+      </div>
       <ul className={style.menuList}>
         {menuItems.map((item) => (
-          <li
-            key={item.id}
-            className={style.list} onMouseEnter={() => handleMouseEnter(item.id)} onMouseLeave={handleMouseLeave}
-          >
+          <li className={style.menuItem} key={item.id} onMouseEnter={() => (handleMouseEnter(item.id))} onMouseLeave={handleMouseLeave}>
             {item.name}
             {activeMenu === item.id && (
               <ul className={style.subMenu}>
-                {item.Items.map((subItem, index) => (
-                  <li key={index} className={style.subItem}>
-                    {subItem}
+                {item.Items.map((subitem) => (
+                  <li className={style.subMenuItem}>
+                    {subitem}
+                    <button onClick={() => dispatch({type: ADD})} className={style.add}>Add</button>
+                    <button onClick={() => dispatch({type: REMOVE})}className={style.remove}>Remove</button>
                   </li>
                 ))}
               </ul>

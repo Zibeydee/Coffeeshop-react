@@ -43,11 +43,11 @@ function About() {
 
       <div className={style.coffees}>
         <div className={style.text}>
-        <h2>Our Coffees</h2>
-        <p>We carefully select coffee beans from all over the world and prepare them with our special roasting techniques. Try our favorite drinks from the menu and enjoy a different experience with every sip.</p>
+          <h2>Our Coffees</h2>
+          <p>We carefully select coffee beans from all over the world and prepare them with our special roasting techniques. Try our favorite drinks from the menu and enjoy a different experience with every sip.</p>
         </div>
         <div className='image'>
-        <img src={coffeeimg} alt="" />
+          <img src={coffeeimg} alt="" />
         </div>
       </div>
 

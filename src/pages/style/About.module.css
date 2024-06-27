@@ -9,7 +9,7 @@
     margin-top: 70px;
 }
 
-.about .text{
+.about .text {
     width: 50%;
 }
 
@@ -23,12 +23,12 @@
 }
 
 .about p {
-    font-family:  "Quicksand";
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 }
 
-.about img{
+.about img {
     width: 400px;
 }
 
@@ -47,18 +47,18 @@
 }
 
 .story p {
-    font-family:  "Quicksand";
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 }
 
-.values{
+.values {
     width: 50%;
     margin-left: 310px;
     margin-top: 90px;
 }
 
-.values h2{
+.values h2 {
     font-family: "Ubuntu Sans";
     font-weight: 500;
     color: #c0632d;
@@ -67,8 +67,8 @@
 
 }
 
-.values p{
-    font-family:  "Quicksand";
+.values p {
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 }
@@ -82,28 +82,28 @@
 }
 
 
-.team .text{
+.team .text {
     width: 50%;
 }
 
-.team img{
+.team img {
     width: 400px;
 }
 
-.team h2{
+.team h2 {
     font-family: "Ubuntu Sans";
     font-weight: 500;
     color: #c0632d;
     font-size: 35px;
 }
 
-.team p{
-    font-family:  "Quicksand";
+.team p {
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 }
 
-.coffees{
+.coffees {
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -112,31 +112,31 @@
 }
 
 
-.coffees .text{
+.coffees .text {
     width: 50%;
 }
 
 
-.coffees img{
+.coffees img {
     width: 400px;
 }
 
-.coffees h2{
+.coffees h2 {
     font-family: "Ubuntu Sans";
     font-weight: 500;
     color: #c0632d;
     font-size: 35px;
 }
 
-.coffees p{
-    font-family:  "Quicksand";
+.coffees p {
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 
 }
 
 
-.community{
+.community {
     width: 85%;
     text-align: center;
     margin-left: 50px;
@@ -144,7 +144,7 @@
 }
 
 
-.community h2{
+.community h2 {
     font-family: "Ubuntu Sans";
     font-weight: 500;
     color: #c0632d;
@@ -153,33 +153,9 @@
 }
 
 
-.community p{
-    font-family:  "Quicksand";
+.community p {
+    font-family: "Quicksand";
     color: white;
     font-size: 20px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

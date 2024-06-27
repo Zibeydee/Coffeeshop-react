@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&display=swap');
+
+.basketContainer{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-sizing: border-box;
+    background:url("../../components/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 73%;
+    margin-left: 190px;
+    margin-top: 50px;
+    font-family: "Amatic SC";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
